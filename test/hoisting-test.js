@@ -42,6 +42,9 @@ describe('hoisting', () => {
       })
     })
 
+
+let crazy = () => console.log("hey!!!")
+
     describe('sayMyName', () => {
       it("prints 'Kristin' to the console from the nested function", () => {
         sayMyName()
