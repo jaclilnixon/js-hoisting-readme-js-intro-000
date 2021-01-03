@@ -22,7 +22,7 @@ describe('hoisting', () => {
       expect(callMe()).to.equal("maybe");
     })
   })
-  
+
   let callMe = () => 'maybe'
 
   describe('loggers', () => {
