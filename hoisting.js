@@ -10,6 +10,7 @@ function callMe() {
 
 function crazy() {
   // fix the code in here:
+  let callMe = () => 'maybe'
   thisIsCrazy();
 
   var thisIsCrazy = function (){
