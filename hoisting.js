@@ -11,6 +11,7 @@ function callMe() {
 function crazy() {
   // fix the code in here:
   let callMe = () => 'maybe'
+  let crazy = () => console.log("hey!!!")
   thisIsCrazy();
 
   var thisIsCrazy = function (){
