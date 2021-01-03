@@ -17,7 +17,7 @@ describe('hoisting', () => {
     src: fs.readFileSync(path.resolve(__dirname, '..', 'hoisting.js'), 'utf-8')
   })
 
-  let callMe = () => "maybe"
+  let callMe = () => 'maybe'
 
   describe('loggers', () => {
     beforeEach(() => {
